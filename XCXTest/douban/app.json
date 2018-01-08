@@ -9,5 +9,21 @@
     "navigationBarBackgroundColor": "#35495e",
     "navigationBarTitleText": "豆瓣电影",
     "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/board/board",
+        "iconPath":"./images/home.png",
+        "selectionIconPath":"./images/home-actived.png",
+        "text":"主页"
+      },
+      {
+        "pagePath":"pages/search/search",
+        "iconPath":"./images/board.png",
+        "selectionIconPath":"./images/board-actived.png",
+        "text":"搜索"
+      }
+    ]
   }
 }
