@@ -1370,10 +1370,24 @@ const temp = {
 }
 Page({
   data:{
-    list:temp.subjects
+    list:{}
   },
   onLoad(params){
     console.log(params);
     this.setData({title:params.name});
+    var type = params.type;
+    // 请求数据
+    wx.request({
+        url:'https://api.douban.com/v2/movie/'+type,
+        header:{
+            "Content-Type": "application/text"
+        },
+        success:(res)=>{
+            console.log(res);
+            this.setData({
+                list:res.data.subjects
+            })
+        }
+    });
   }
 })

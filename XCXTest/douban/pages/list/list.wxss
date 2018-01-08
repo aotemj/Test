@@ -24,13 +24,9 @@
 	border-top:1px solid #eee;
 }
 /*列表项图片*/
-.list-item .img {
-	width:200rpx;
-	height:150rpx;
-}
 .list-item .img image{
-	width:200rpx;
-	height:150rpx;
+	height:173rpx;
+	width:130rpx;
 }
 /*详细信息*/
 .list-item .info{

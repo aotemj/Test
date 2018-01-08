@@ -14,28 +14,28 @@
   </view>
   <!-- 列表项 -->
   <view class="board">
-   <navigator url ="../list/list?name=正在热映" hover-class="none">
+   <navigator url ="../list/list?name=正在热映&type=in_theaters" hover-class="none">
       <view class="board-item">
        <text>正在热映</text>
        <!-- 右侧箭头 -->
        <image src="../../images/arrowright.png"></image>
      </view>
    </navigator>
-   <navigator url ="../list/list?name=即将上映" hover-class="none">
+   <navigator url ="../list/list?name=即将上映&type=coming_soon" hover-class="none">
       <view class="board-item">
        <text>即将上映</text>
        <!-- 右侧箭头 -->
        <image src="../../images/arrowright.png"></image>
      </view>
    </navigator>
-   <navigator url ="../list/list?name=TOP250" hover-class="none">
+   <navigator url ="../list/list?name=TOP250&type=top250" hover-class="none">
       <view class="board-item">
        <text>TOP250</text>
        <!-- 右侧箭头 -->
        <image src="../../images/arrowright.png"></image>
      </view>
    </navigator>
-   <navigator url ="../list/list?name=北美票房榜" hover-class="none">
+   <navigator url ="../list/list?name=北美票房榜&type=us_box" hover-class="none">
       <view class="board-item">
        <text>北美票房榜</text>
        <!-- 右侧箭头 -->

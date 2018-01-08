@@ -11,7 +11,10 @@ Page({
     indicatorDots: false,
     autoplay: true,
     interval: 5000,
-    duration: 1000
+    duration: 1000,
+  },
+  onLoad(params){
+    // console.log(params);
   },
   changeIndicatorDots: function(e) {
     this.setData({
