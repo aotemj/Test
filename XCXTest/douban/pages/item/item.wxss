@@ -1,0 +1,7 @@
+.container{}
+.img{
+	margin:50rpx auto;
+	width:470rpx;
+	height:657rpx;
+	background-color: pink;
+}

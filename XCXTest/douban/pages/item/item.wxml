@@ -1,0 +1,5 @@
+<!-- 电影详情 -->
+<view class="item-container">
+  <!-- 电影海报 -->
+  <view class="img"><image src=""></image></view>
+</view>
