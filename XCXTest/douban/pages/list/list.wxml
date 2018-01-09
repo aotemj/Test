@@ -3,7 +3,7 @@
   <!-- 表头 -->
   <text class="title">{{title}}</text>
   <!-- list主要内容 -->
-  <view class="list">
+  <scroll-view class="list" scroll-y>
     <!-- 列表项 -->
    <navigator wx:for="{{list}}" url="../item/item?id={{item.id||item.subject.id}}" wx:key="">
       <view class="list-item">
@@ -26,5 +26,5 @@
        <view class="img"></view>
      </view> -->
    </navigator>
- </view>
+ </scroll-view>
 </view>

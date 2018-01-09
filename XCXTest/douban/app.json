@@ -11,18 +11,20 @@
     "navigationBarTextStyle":"white"
   },
   "tabBar":{
+    "color":"red",
+    "position":"bottom",
     "list":[
       {
         "pagePath":"pages/board/board",
-        "iconPath":"./images/home.png",
-        "selectionIconPath":"./images/home-actived.png",
-        "text":"主页"
+        "text":"榜单",
+        "iconPath":"images/board.png",
+        "selectedIconPath":"images/board-actived.png"
       },
       {
         "pagePath":"pages/search/search",
-        "iconPath":"./images/board.png",
-        "selectionIconPath":"./images/board-actived.png",
-        "text":"搜索"
+        "text":"搜索",
+        "iconPath":"images/search.png",
+        "selectedIconPath":"images/search-actived.png"
       }
     ]
   }

@@ -12,7 +12,9 @@
 }
 /*列表内容*/
 .list-container .list{
-
+	background-color: pink;
+	height:1000rpx;
+	border:1px solid #000;
 }
 .list-item {
 	background-color: #fff;
